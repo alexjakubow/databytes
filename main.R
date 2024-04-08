@@ -47,7 +47,6 @@ factorize_group <- function(x) {
               "yls-student",
               "yls-admin",
               "yls-library",
-              "yls-service",
               "yale-faculty",
               "yale-student",
               "yale-library",

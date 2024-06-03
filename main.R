@@ -30,7 +30,6 @@ grepl_any <- function(pattern, x) {
   sum(grepl(pattern, x)) > 0
 }
 
-
 # Check if data project file
 is_data_project <- function(yml) {
   if (sum(grepl(YAML_CHECK, yml)) > 0 & sum(grepl(COLLECTION_CHECK, yml)) > 0) {
